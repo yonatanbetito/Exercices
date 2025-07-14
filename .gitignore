@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dependencies
 node_modules/
 npm-debug.log*
@@ -105,3 +106,11 @@ logs
 migrations/
 seeders/
 config/config.json
+=======
+node_modules/
+.env
+.DS_Store
+*.log
+dist/
+build/
+>>>>>>> fb4d5cede3b73404a55d9f0fc64cc68d5215398d
