@@ -1,0 +1,33 @@
+{
+<<<<<<< HEAD
+  "name": "sequelize",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+=======
+  "name": "fullstack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch index",
+>>>>>>> fb4d5cede3b73404a55d9f0fc64cc68d5215398d
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+<<<<<<< HEAD
+    "mysql2": "^3.14.2",
+    "random": "^5.4.1",
+    "sequelize": "^6.37.7"
+=======
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.2"
+>>>>>>> fb4d5cede3b73404a55d9f0fc64cc68d5215398d
+  }
+}
