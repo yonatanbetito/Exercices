@@ -1,7 +1,5 @@
 import supabase from "../db.js";
 
-const loggedUsers = [];
-
 export const loginController = async (req, res) => {
   const { username, password } = req.body;
 
@@ -19,17 +17,11 @@ export const loginController = async (req, res) => {
     .single();
 
   if (error || !data) {
-    return res.status(401).json({ error: "Invalid username or password" });
+    return res.status(401).json({ error: "Wrong username or password" });
   }
-
-  loggedUsers.push(data.username);
 
   res.json({
     message: "Login successful",
     username: data.username,
   });
-};
-
-export const isUserLoggedIn = (username) => {
-  return loggedUsers.includes(username);
 };

@@ -3,7 +3,7 @@ import authRoutes from "./routes/authRoutes.js";
 import productsRoutes from "./routes/productsRoutes.js";
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT;
 
 app.use(express.json());
 
